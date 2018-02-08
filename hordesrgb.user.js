@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HordesRGB
 // @namespace    https://raw.githubusercontent.com/LegusX/HordesRGB
-// @version      0.5
+// @version      0.6
 // @description  A modded version of the Hordes.io client to provide colorful items
 // @author       LegusX & Fade
 // @match        https://hordes.io/
@@ -40,7 +40,7 @@
         "glove8.png": "gove8.png"
     };
     setInterval(function(){
-        var children = document.getElementsByClassName("itemPic");
+        var children = document.getElementsByClassName("itemimg");
         for (var i=0;i<children.length;i++) {
             var child = children[i];
             if (Object.getOwnPropertyNames(filemap).includes(child.src.replace("https://hordes.io/data/items/", ""))) {
