@@ -22,7 +22,6 @@
 						}
 					}
 					document.getElementById("ui_player").style = "min-width: 250px;";
-					document.getElementById("ui_target").style = "min-width: 250px;";
 				}, 1000);
 			});});
 		});});
